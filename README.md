@@ -63,6 +63,8 @@ This command will download a pre-trained decoder as well as a modified VGG-19 ne
 Use `-content` and `-style` to provide the respective path to the content and style image, for example:
 ```
 th test.lua -content input/content/cornell.jpg -style input/style/woman_with_hat_matisse.jpg
+
+th test.lua -content input/content/thomas.jpg -style input/style/tiger.jpg -gpu -1
 ```
 
 You can also run the code on directories of content and style images using `-contentDir` and `-styleDir`. It will save every possible combination of content and styles to the output directory.
