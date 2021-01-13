@@ -65,6 +65,8 @@ Use `-content` and `-style` to provide the respective path to the content and st
 th test.lua -content input/content/cornell.jpg -style input/style/woman_with_hat_matisse.jpg
 
 th test.lua -content input/content/thomas.jpg -style input/style/tiger.jpg -gpu -1
+
+th test.lua -content input/content/caravaggio_sketch.jpg -style input/style/caravaggio_painting.jpg -gpu -1
 ```
 
 You can also run the code on directories of content and style images using `-contentDir` and `-styleDir`. It will save every possible combination of content and styles to the output directory.
