@@ -177,5 +177,11 @@ This project is inspired by many existing style transfer methods and their open-
 
 If you have any questions or suggestions about the paper, feel free to reach me (xh258@cornell.edu).
 
+## Monitoring
+
+```bash
+watch -n 0.5 nvidia-smi
+```
+
 ## References
 * http://torch.ch/docs/getting-started.html
