@@ -69,6 +69,11 @@ th test.lua -content input/content/thomas.jpg -style input/style/tiger.jpg -gpu 
 th test.lua -content input/content/caravaggio_sketch.jpg -style input/style/caravaggio_painting.jpg -gpu -1
 ```
 
+Basic usage of content-to-style transfer is dependent on the following command, then `th` can be executed.
+```bash
+source ~/.bashrc
+```
+
 You can also run the code on directories of content and style images using `-contentDir` and `-styleDir`. It will save every possible combination of content and styles to the output directory.
 
 ```
